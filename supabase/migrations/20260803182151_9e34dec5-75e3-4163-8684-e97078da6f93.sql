@@ -1,0 +1,1 @@
+ALTER TABLE public.company_sites ADD COLUMN IF NOT EXISTS theme text NOT NULL DEFAULT 'midnight';

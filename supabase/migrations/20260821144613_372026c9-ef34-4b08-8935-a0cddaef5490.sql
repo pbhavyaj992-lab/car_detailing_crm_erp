@@ -1,0 +1,1 @@
+ALTER FUNCTION public.can_manage_company_logo(text) SECURITY INVOKER;

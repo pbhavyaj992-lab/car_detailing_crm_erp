@@ -1,0 +1,4 @@
+CREATE POLICY "staff read company-logos" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'company-logos' AND public.current_user_is_staff());
+CREATE POLICY "admin upload company-logos" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'company-logos' AND (public.current_user_can_admin() OR public.current_user_is_super_admin()));
+CREATE POLICY "admin update company-logos" ON storage.objects FOR UPDATE TO authenticated USING (bucket_id = 'company-logos' AND (public.current_user_can_admin() OR public.current_user_is_super_admin()));
+CREATE POLICY "admin delete company-logos" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'company-logos' AND (public.current_user_can_admin() OR public.current_user_is_super_admin()));

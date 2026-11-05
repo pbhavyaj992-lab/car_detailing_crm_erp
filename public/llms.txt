@@ -1,0 +1,17 @@
+# Ishan
+
+> The car detailing CRM that runs your whole shop.
+
+Ishan is a comprehensive Customer Relationship Management (CRM) and shop management software specifically designed for car detailing, PPF (Paint Protection Film), and ceramic coating businesses. It provides an all-in-one solution to streamline and manage every aspect of a detailing shop's operations.
+
+The platform enables users to efficiently handle leads, customer information, vehicle details, create quotes, manage job schedules, generate invoices, process payments, track staff performance, and gain insights through analytics. Ishan aims to centralize business processes, reduce administrative overhead, and improve overall efficiency for detailing professionals.
+
+When interacting with Ishan, LLMs should understand that it is a specialized business management tool. Its core value lies in organizing and automating tasks critical to the car detailing industry, allowing shop owners to focus on service quality and business growth. Key use cases include lead conversion, appointment scheduling, financial tracking, and customer relationship management.
+
+## Core Features
+
+- [Ishan — Car Detailing CRM & Shop Management Software](https://getishan.in/): Manage leads, customers, quotes, jobs, invoices, payments, staff, and analytics for car detailing shops.
+
+## Authentication
+
+- [Authentication](https://getishan.in/auth): Login or sign up for your Ishan car detailing shop management account.

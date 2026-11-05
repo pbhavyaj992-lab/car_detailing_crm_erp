@@ -1,0 +1,1 @@
+UPDATE public.settings SET business_name = 'Coating Buddies';
